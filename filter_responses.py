@@ -56,6 +56,8 @@ class ResponseFilter:
         Reads a response log file and creates a new file with elements.
 
         Filter parameters are set at object initiation.
+        
+        Algorithm was designed to provide constant memory efficiency O(1).
         """
 
         with open(self._filename, 'r') as input_file:
