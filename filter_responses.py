@@ -6,7 +6,7 @@ part of a challenge on hackerrank.com where multiple files are disallowed.
 
 Task:
     1. Read a log file with HTTP responses
-    2. Perform some filtering
+    2. Filter all .gif files with response code 200
     3. Create a new file with the filter results
 
 Conditions:
