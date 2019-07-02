@@ -182,7 +182,10 @@ sahara.gif
             )
 
         TextFileFilter.remove_duplicates(test_file)
-
+        
+        # In order to compare the equality of the filtered and the
+        # expected files we create two lists with all the characters
+        # of the files sorted.
         with open(test_file, 'r') as file:
             final_text = list(file.read())
             expected_result = list(
