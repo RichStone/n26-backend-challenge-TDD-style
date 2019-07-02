@@ -8,15 +8,16 @@ in 'Test-Driven-Development by Example' by Kent Beck.
 The test classes are to be found inside the module because this code was
 part of a challenge on hackerrank.com where multiple files are disallowed.
 
-Task:
-    1. Read a log file with HTTP responses
-    2. Perform some filtering
-    3. Create a new file with the filter results
+Task:  
+    1. Read a log file with HTTP responses  
+    2. Perform some filtering (get all .gif files with response code 200)  
+    3. Create a new file with the filter results   
 
-Conditions:
-    - duplicate lines are disallowed
+Conditions:  
+    - duplicate lines are disallowed  
     - a single log file might contain up to 2 * 10^5 lines which
-      will add up to roughly 25 MB [ 200.000 * 120 / (1024 * 1024) ]
+      will add up to roughly 25 MB [ 200.000 * 120 / (1024 * 1024) ]  
+      
 
 
 # Installation
